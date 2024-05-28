@@ -191,3 +191,41 @@ gsap.from(".projects .main",{
         scrub:2,
     }
 })
+gsap.from("footer .left",{
+    opacity:0,
+    x:-50,
+    duration:0.5,
+    scrollTrigger:{
+        trigger:"footer .left",
+        scroller:"body",
+        start:"top 90%",
+        end:"top 30%",
+        scrub:2,
+        // markers:true
+    }
+})
+gsap.from("footer .right ul",{
+    opacity:0,
+    x:50,
+    duration:0.5,
+    scrollTrigger:{
+        trigger:"footer .left",
+        scroller:"body",
+        start:"top 90%",
+        end:"top 30%",
+        scrub:2,
+        // markers:true
+    }
+})
+gsap.from("footer .bottom p",{
+    opacity:0,
+    x:50,
+    duration:0.5,
+    scrollTrigger:{
+        trigger:"footer .for-bottom",
+        scroller:"body",
+        start:"top 90%",
+        end:"top 30%",
+        scrub:3,
+    }
+})

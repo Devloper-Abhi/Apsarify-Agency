@@ -237,6 +237,46 @@ body{
     margin-left: 3%;
     animation: rotate 2s linear infinite;
 }
+/* Footer */
+footer{
+    margin-top: 10%;
+}
+footer img{
+    font-family: var(--varela-round);
+    font-size: 2rem;
+    width: 10%;
+    margin-bottom: 15px;
+}
+footer p{
+    color: gray;
+    font-size: 0.7rem;
+}
+footer .top p{
+    width: 50%;
+}
+footer .top{
+    padding: 5% 10vw;
+    background: #18181C;
+}
+footer .bottom{
+    padding: 10px 10vw;
+}
+footer .right ul{
+    list-style: none;
+}
+footer .right{
+    display: flex;
+    justify-content: center;
+}
+footer .right ul li a{
+    font-weight: 400;
+    color: gray;   
+    text-decoration: none;
+}
+footer .right ul h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
 /* Animation */
 @keyframes scale-circle-1 {
     25%{

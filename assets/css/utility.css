@@ -54,4 +54,12 @@
 }
 body::-webkit-scrollbar{
     background: #000;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+	background: gray;
+    border-radius: 50px;
+}
+html{
+    scroll-behavior: smooth;
 }
