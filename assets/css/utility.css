@@ -47,9 +47,8 @@
 }
 .subtract{
     width: 100vw;
-    /* height: 50vh; */
-    top: 12vh;
-    position: relative;
+    top: 100vh;
+    position: absolute;
     z-index: -1;
 }
 body::-webkit-scrollbar{

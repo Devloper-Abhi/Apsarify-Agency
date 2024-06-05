@@ -1,3 +1,21 @@
+const sidebar = document.querySelector(".sidebar")
+const sidebarMenu = document.querySelector(".sidebar-menu")
+const closeBar = document.querySelector(".sidebar-close")
+sidebarMenu.addEventListener("click",()=>{
+    sidebar.style.display = "flex";
+    gsap.from(".sidebar",{
+        right: "-100vw",
+        duration : 2
+    })
+})
+closeBar.addEventListener("click",()=>{
+    gsap.to(".sidebar",{
+        right: "-100vw",
+        duration : 2
+    })
+    console.log("clicked")
+})
+// Starting Lunch Animations
 window.addEventListener("contextmenu",(e)=>{
     e.preventDefault()
 }) 
@@ -47,7 +65,7 @@ gsap.from(".about p",{
     scrollTrigger:{
         trigger:".about p",
         scroller:"body",
-        // markers:true,
+        markers:true,
         start:"top 60%",
         end:"top 30%",
         scrub:2,
@@ -229,3 +247,4 @@ gsap.from("footer .bottom p",{
         scrub:3,
     }
 })
+
