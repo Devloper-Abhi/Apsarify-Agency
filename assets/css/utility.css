@@ -62,3 +62,10 @@ body::-webkit-scrollbar-thumb{
 html{
     scroll-behavior: smooth;
 }
+/* Cursor */
+.cursor{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: rgb(112, 112, 112);
+}

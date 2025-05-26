@@ -248,3 +248,8 @@ gsap.from("footer .bottom p",{
     }
 })
 
+// window.addEventListener("mouseover",(a)=>{
+//     gsap.to("cursor",{
+//         x:a.clientX,
+//     })
+// })
