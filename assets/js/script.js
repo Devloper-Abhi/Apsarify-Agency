@@ -65,7 +65,7 @@ gsap.from(".about p",{
     scrollTrigger:{
         trigger:".about p",
         scroller:"body",
-        markers:false,
+        // markers:false, 
         start:"top 60%",
         end:"top 30%",
         scrub:2,
@@ -248,8 +248,9 @@ gsap.from("footer .bottom p",{
     }
 })
 
-// window.addEventListener("mouseover",(a)=>{
-//     gsap.to("cursor",{
-//         x:a.clientX,
-//     })
-// })
+window.addEventListener("mousemove",(a)=>{
+    gsap.to(".cursor",{
+        x:a.clientX + window.scrollX,
+        y:a.clientY + window.scrollY,
+    })
+})
