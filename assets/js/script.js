@@ -167,7 +167,6 @@ gsap.from(".s-c-4",{
     scrollTrigger:{
         trigger:".s-c-4",
         scroller:"body",
-        // markers:true,
         start:"top 60%",
         end:"top 30%",
         scrub:1,
@@ -252,5 +251,6 @@ window.addEventListener("mousemove",(a)=>{
     gsap.to(".cursor",{
         x:a.clientX + window.scrollX,
         y:a.clientY + window.scrollY,
+        duration:0.1
     })
 })

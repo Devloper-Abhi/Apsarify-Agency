@@ -34,10 +34,10 @@
     background: linear-gradient(90deg,var(--gradient));
     padding: 8px 15px;
     border-radius: 5px;
-    cursor: pointer;
     text-decoration: none;
     transition: all 0.2s ease;
     color: white;
+    z-index: -199;
 }
 .btn-gradient a{
     font-weight: 400 !important;
@@ -49,7 +49,6 @@
     width: 100vw;
     top: 100vh;
     position: absolute;
-    z-index: -1;
 }
 body::-webkit-scrollbar{
     background: #000;
@@ -68,4 +67,5 @@ html{
     height:10px;
     border-radius:50%;
     background: rgb(112, 112, 112);
+    z-index: 9999;
 }
