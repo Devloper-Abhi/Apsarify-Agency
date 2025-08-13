@@ -20,7 +20,7 @@ html {
   overflow-x: hidden;
 }
 
-*{
+* {
   cursor: none;
 }
 
@@ -70,7 +70,7 @@ html {
   animation: scale-circle-3 15s linear infinite;
 }
 /* Navbar */
-.sidebar-menu{
+.sidebar-menu {
   display: none;
   margin-right: 15px;
 }
@@ -137,7 +137,7 @@ html {
   gap: 15px;
   flex-direction: column;
 }
-.close{
+.close {
   font-size: 1.5rem;
 }
 .sidebar ul li {
@@ -272,7 +272,7 @@ html {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width:85vw;
+  width: 85vw;
 }
 .service-card .icon {
   padding: 2%;
@@ -412,29 +412,33 @@ footer .right ul h5 {
   .intro {
     padding-top: 25vw;
   }
+  .about {
+    display: none;
+  }
 }
 @media (max-width: 650px) {
   .sidebar-menu {
     display: flex;
   }
-  .navbar .right ul{
+  .navbar .right ul {
     display: none;
   }
 }
 @media (max-width: 800px) {
-    .intro {
-      padding-top: 25vw;
-    }
-    .intro h2{
-      width: 80%;
-    }
-    .intro p{
-      width: 60%;
-    }
-    .about .main{
-      flex-direction: column;
-    }
-    .about .left,.about .right{
-      width: 100%;
-    }
+  .intro {
+    padding-top: 25vw;
   }
+  .intro h2 {
+    width: 80%;
+  }
+  .intro p {
+    width: 60%;
+  }
+  .about .main {
+    flex-direction: column;
+  }
+  .about .left,
+  .about .right {
+    width: 100%;
+  }
+}
