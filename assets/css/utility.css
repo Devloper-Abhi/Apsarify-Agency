@@ -49,6 +49,7 @@
     width: 100vw;
     top: 100vh;
     position: absolute;
+    margin-top: 18vh;
 }
 body::-webkit-scrollbar{
     background: #000;
